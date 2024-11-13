@@ -1,0 +1,75 @@
+
+.home {
+  padding: 40px;
+  background-image: url('56.jpg'); /* Update this path to your image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the image */
+  color: #fff; /* Changed to white for better contrast */
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 3rem;
+  color: #ffcc00; /* Changed to a golden color */
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.home p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  color: #e0e0e0; /* Light gray for better readability */
+}
+
+.bus-details {
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  backdrop-filter: blur(10px); /* Adds the blur effect */
+}
+
+.bus-details h2 {
+  font-size: 2rem;
+  color: #333; /* Dark gray for section headers */
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.bus-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bus-details li {
+  background: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #555; /* Darker gray for list items */
+}
+
+.bus-details li:nth-child(even) {
+  background: #e9ecef;
+}
+
+.bus-details li:hover {
+  background: #d0d0d0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.location-selector {
+  margin-bottom: 20px;
+}
+
+.bus-info {
+  margin-top: 10px;
+  font-style: italic;
+  color: #777; /* Medium gray for additional info */
+}
